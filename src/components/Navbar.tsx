@@ -1,17 +1,17 @@
-import React from 'react'
-
 const Navbar = () => {
     return (
-        <div>
+        <div className="mx-7 my-3">
             <div className="flex justify-between items-center">
                 <div>
                     <img src="" alt="" />
                 </div>
 
                 <div>
-                    <ul>
-                        <li></li>
-                        <li></li>
+                    <ul className="flex justify-between items-center gap-5">
+                        <li>Login</li>
+                        <li>
+                            <button className="signupbutton">Sign up</button>
+                        </li>
                     </ul>
                 </div>
             </div>
